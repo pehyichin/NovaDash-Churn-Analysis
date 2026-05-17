@@ -38,9 +38,22 @@ Identify the behavioural, demographic, and subscription-level signals that prece
 Based on the findings, four strategic layers are proposed to address NovaDash's 
 retention problem across the full customer lifecycle from acquisition to recovery.
 
-| Layer | Focus | Priority |
-|---|---|---|
-| 1. Acquire the Right Customers | Improve lead quality and channel mix to reduce structural churn risk at the source | Medium to long-term |
-| 2. Accelerate Early Value Realization | Reduce dropout in the critical 0–90 day window through onboarding and activation improvements | High, immediate impact |
-| 3. Protect High-Value Customer Relationships | Retain long-tenure and high-value accounts through dedicated success management and proactive engagement | Medium-term |
-| 4. Learn From and Recover Lost Customers | Close the feedback gap and convert churned accounts into reactivation opportunities | Quick wins available |
+| Layer | Focus |
+|---|---|
+| 1. Acquire the Right Customers | Improve lead quality and channel mix to reduce structural churn risk at the source |
+| 2. Accelerate Early Value Realization | Reduce dropout in the critical 0–90 day window through onboarding and activation improvements |
+| 3. Protect High-Value Customer Relationships | Retain long-tenure and high-value accounts through dedicated success management and proactive engagement |
+| 4. Learn From and Recover Lost Customers | Close the feedback gap and convert churned accounts into reactivation opportunities |
+
+### 1. Acquire the Right Customers
+- Shift acquisition focus from volume to fit
+
+  Event and ads channels produce the highest churn rates (30–43%) while partner and organic referrals retain significantly better (13–17%). Refining the acquisition channel mix, introducing lightweight qualification criteria for high-churn channels, and redesigning event flows to emphasise product understanding over immediate sign-ups may collectively improve the quality of incoming accounts without necessarily increasing acquisition cost.
+  
+**Priority: Medium-term — requires marketing and sales alignment.**
+
+- Develop an Ideal Customer Profile (ICP)
+
+  Retention and churn patterns suggest that certain industries — particularly Cybersecurity and EdTech — demonstrate stronger retention quality despite smaller account volume. Formalising these observations into a defined ICP can guide targeting strategy, acquisition messaging, and onboarding expectations, reducing structural churn risk at the source.
+  
+**Priority: Long-term — requires cross-functional alignment.**
