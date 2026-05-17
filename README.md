@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Tableau](https://img.shields.io/badge/Tableau-Public-orange)
+![SQL](https://img.shields.io/badge/SQL-SQLite-lightgrey)
+
 ## Company Info
 <img width="300" alt="NovaDash-lockup-light" src="https://github.com/user-attachments/assets/8b1709e4-6e72-44fd-be2a-6936cf07bbae" />
 
@@ -22,9 +26,10 @@ SQL -> Python -> Tableau
 Identify the behavioural, demographic, and subscription-level signals that precede customer churn at NovaDash, and quantify the revenue impact to inform a targeted retention strategy.
 
 ## Key Findings
-[NovaDash Churn Analysis Dashboard](https://public.tableau.com/app/profile/yichin.peh/viz/NovaDash_tableau_TBD/Dashboard1)
+[View Dashboard on Tableau Public](https://public.tableau.com/app/profile/yichin.peh/viz/NovaDash_tableau_TBD/Dashboard1)
 
 <img width="1873" height="2030" alt="Dashboard 1" src="https://github.com/user-attachments/assets/23ad68dc-3337-49cf-8ec4-d77ed704d165" />
+
 *Figure 1: NovaDash Churn Analysis Dashboard*
 
 - DevTools has the highest churn rate (31%), particularly among event (43.5%) and ad-acquired accounts (38.5%).
@@ -39,10 +44,10 @@ Identify the behavioural, demographic, and subscription-level signals that prece
 - Accounts churning after 365+ days contribute the highest loss rate but relatively lower absolute churn volume.
 - Of 26 reactivated accounts, 88.5% remain retained after returning.
 
+
 ## Recommendations
 
-Based on the findings, four strategic layers are proposed to address NovaDash's 
-retention problem across the full customer lifecycle from acquisition to recovery.
+Based on the findings, four strategic layers are proposed to address NovaDash's retention problem across the full customer lifecycle from acquisition to recovery.
 
 | Layer | Focus |
 |---|---|
@@ -52,8 +57,10 @@ retention problem across the full customer lifecycle from acquisition to recover
 | 4. Learn From and Recover Lost Customers | Close the feedback gap and convert churned accounts into reactivation opportunities |
 
 ### 1. Acquire the Right Customers
+
 <img width="710" height="279" alt="image" src="https://github.com/user-attachments/assets/e5a9ea8b-e0f4-43cc-921f-29567f1d0eff" />
-*Figure 2: *
+
+*Figure 2: Churn Rate by Industry and Referral Source — DevTools and Event Channel Carry Highest Risk*
 
 - Shift acquisition focus from volume to fit
 
@@ -69,7 +76,9 @@ retention problem across the full customer lifecycle from acquisition to recover
 
 ### 2. Accelerate Early Value Realization
 <img width="508" height="285" alt="image" src="https://github.com/user-attachments/assets/1fd2c398-0577-48e6-8185-9bf5724d29c2" />
-*Figure 3: *
+
+*Figure 3: Churn Rate by Tenure Bucket — 46.7% of Churn Occurs Within the First 90 Days*
+
 
 - Redesign onboarding around early value realization
 
@@ -78,7 +87,8 @@ retention problem across the full customer lifecycle from acquisition to recover
 **Priority: High - directly addresses the largest churn window. Requires product instrumentation and cross-functional definition of success metrics.**
 
 <img width="496" height="291" alt="image" src="https://github.com/user-attachments/assets/f9e522f5-ac3a-4f3c-a1f1-a94ab75318a5" />
-*Figure 4: *
+
+*Figure 4: Pre-Churn Subscription Changes — More Accounts Upgraded Than Downgraded Before Leaving*
 
 - Implement structured touchpoints and early subscription change monitoring
 
@@ -90,7 +100,8 @@ retention problem across the full customer lifecycle from acquisition to recover
 ### 3. Protect High-Value Customer Relationships
 
 <img width="523" height="259" alt="image" src="https://github.com/user-attachments/assets/13de1590-d4b4-4898-ad24-e38d58b15ac2" />
-*Figure 5: *
+
+*Figure 5: MRR Lost per Churned Account by Industry — Cybersecurity Accounts Carry the Highest Individual Revenue Risk at $2.6K*
 
 - Invest in structured relationship management for long-tenure and high-value accounts
 
