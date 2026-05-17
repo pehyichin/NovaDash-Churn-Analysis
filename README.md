@@ -3,7 +3,7 @@
     
 # Dataset Info
     
-Simulated data for SaaS user behavior analysis - https://www.kaggle.com/datasets/rivalytics/saas-subscription-and-churn-analytics-dataset/data 
+[Simulated data for SaaS user behavior analysis](https://www.kaggle.com/datasets/rivalytics/saas-subscription-and-churn-analytics-dataset/data)
 The dataset spans 5 CSV files:
 - accounts.csv (500) – customer metadata
 - subscriptions.csv (5,000) – subscription lifecycles and revenue
@@ -14,3 +14,9 @@ This dataset is fully synthetic and distributed under a permissive MIT-like lice
 
 # Data Pipeline
 SQL -> Python -> Tableau
+
+# Objective
+Identify the behavioural, demographic, and subscription-level signals that precede customer churn at NovaDash, and quantify the revenue impact to inform a targeted retention strategy.
+
+# Key Findings
+[NovaDash Churn Analysis Dashboard](https://public.tableau.com/app/profile/yichin.peh/viz/NovaDash_tableau_TBD/Dashboard1)
