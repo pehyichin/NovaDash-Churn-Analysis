@@ -1,9 +1,12 @@
 ## Company Info
+<img width="300" alt="NovaDash-lockup-light" src="https://github.com/user-attachments/assets/8b1709e4-6e72-44fd-be2a-6936cf07bbae" />
+
 **NovaDash** is a B2B SaaS platform providing workflow automation and analytics tools to technology companies across Southeast Asia. Serving 500 enterprise and SME clients across five verticals — DevTools, FinTech, HealthTech, EdTech, and Cybersecurity — NovaDash has experienced rising churn over the past two quarters, prompting an urgent review by the Head of Customer Success.
     
 ## Dataset Info
     
 [Simulated data for SaaS user behavior analysis](https://www.kaggle.com/datasets/rivalytics/saas-subscription-and-churn-analytics-dataset/data)
+
 The dataset spans 5 CSV files:
 - accounts.csv (500) – customer metadata
 - subscriptions.csv (5,000) – subscription lifecycles and revenue
@@ -20,6 +23,9 @@ Identify the behavioural, demographic, and subscription-level signals that prece
 
 ## Key Findings
 [NovaDash Churn Analysis Dashboard](https://public.tableau.com/app/profile/yichin.peh/viz/NovaDash_tableau_TBD/Dashboard1)
+
+<img width="1873" height="2030" alt="Dashboard 1" src="https://github.com/user-attachments/assets/23ad68dc-3337-49cf-8ec4-d77ed704d165" />
+*Figure 1: NovaDash Churn Analysis Dashboard*
 
 - DevTools has the highest churn rate (31%), particularly among event (43.5%) and ad-acquired accounts (38.5%).
 - Nearly half of churn occurs within the first 90 days.
@@ -47,7 +53,7 @@ retention problem across the full customer lifecycle from acquisition to recover
 
 ### 1. Acquire the Right Customers
 <img width="710" height="279" alt="image" src="https://github.com/user-attachments/assets/e5a9ea8b-e0f4-43cc-921f-29567f1d0eff" />
-
+*Figure 2: *
 
 - Shift acquisition focus from volume to fit
 
@@ -63,6 +69,7 @@ retention problem across the full customer lifecycle from acquisition to recover
 
 ### 2. Accelerate Early Value Realization
 <img width="508" height="285" alt="image" src="https://github.com/user-attachments/assets/1fd2c398-0577-48e6-8185-9bf5724d29c2" />
+*Figure 3: *
 
 - Redesign onboarding around early value realization
 
@@ -71,6 +78,7 @@ retention problem across the full customer lifecycle from acquisition to recover
 **Priority: High - directly addresses the largest churn window. Requires product instrumentation and cross-functional definition of success metrics.**
 
 <img width="496" height="291" alt="image" src="https://github.com/user-attachments/assets/f9e522f5-ac3a-4f3c-a1f1-a94ab75318a5" />
+*Figure 4: *
 
 - Implement structured touchpoints and early subscription change monitoring
 
@@ -82,7 +90,7 @@ retention problem across the full customer lifecycle from acquisition to recover
 ### 3. Protect High-Value Customer Relationships
 
 <img width="523" height="259" alt="image" src="https://github.com/user-attachments/assets/13de1590-d4b4-4898-ad24-e38d58b15ac2" />
-
+*Figure 5: *
 
 - Invest in structured relationship management for long-tenure and high-value accounts
 
