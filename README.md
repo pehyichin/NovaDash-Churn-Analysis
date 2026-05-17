@@ -6,21 +6,6 @@
 <img width="300" alt="NovaDash-lockup-light" src="https://github.com/user-attachments/assets/8b1709e4-6e72-44fd-be2a-6936cf07bbae" />
 
 **NovaDash** is a B2B SaaS platform providing workflow automation and analytics tools to technology companies across Southeast Asia. Serving 500 enterprise and SME clients across five verticals — DevTools, FinTech, HealthTech, EdTech, and Cybersecurity — NovaDash has experienced rising churn over the past two quarters, prompting an urgent review by the Head of Customer Success.
-    
-## Dataset Info
-    
-[Simulated data for SaaS user behavior analysis](https://www.kaggle.com/datasets/rivalytics/saas-subscription-and-churn-analytics-dataset/data)
-
-The dataset spans 5 CSV files:
-- accounts.csv (500) – customer metadata
-- subscriptions.csv (5,000) – subscription lifecycles and revenue
-- feature_usage.csv (25,000) – daily product interaction logs
-- support_tickets.csv (2,000) – support activity and satisfaction scores
-- churn_events.csv (600) – churn dates, reasons, and refund behaviors
-This dataset is fully synthetic and distributed under a permissive MIT-like license.
-
-### Data Pipeline
-SQL -> Python -> Tableau
 
 ## Objective
 Identify the behavioural, demographic, and subscription-level signals that precede customer churn at NovaDash, and quantify the revenue impact to inform a targeted retention strategy.
@@ -127,3 +112,31 @@ Based on the findings, four strategic layers are proposed to address NovaDash's 
     Of 26 reactivated accounts, 88.5% are currently retained, suggesting that customers who return after churning tend to stay. A structured win-back campaign targeting recently churned accounts within 90 days of exit, with tailored messaging and low-friction re-entry incentives based on known churn reasons, may recover meaningful revenue at relatively low cost.
 
   **Priority: Medium-term, requires campaign design and CRM segmentation.**
+
+## Technical Notes
+
+**Tools & Stack**
+- **SQL (SQLite)** — multi-table joins across 5 relational tables, aggregations, and exploratory queries
+- **Python** — data preprocessing, exploratory data analysis, and statistical investigation
+- **Tableau Public** — interactive dashboard and data visualisation
+- **Libraries:** Pandas, Matplotlib, Seaborn
+
+**Data Pipeline**
+Raw CSVs → SQL (joins & aggregations) → Python (EDA) → Tableau (visualisation)
+
+**Dataset**
+- **Source:** [RavenStack SaaS Dataset by Rivalytics](https://www.kaggle.com/datasets/rivalytics/saas-subscription-and-churn-analytics-dataset)
+- **Credit:** River @ Rivalytics — MIT-like licence, fully synthetic, no PII
+- **5 relational tables:**
+  - `accounts.csv` (500 rows) — customer metadata
+  - `subscriptions.csv` (5,000 rows) — subscription lifecycles and revenue
+  - `feature_usage.csv` (25,000 rows) — daily product interaction logs
+  - `support_tickets.csv` (2,000 rows) — support activity and satisfaction scores
+  - `churn_events.csv` (600 rows) — churn dates, reasons, and pre-churn behaviour
+
+**Repository Structure**
+- `data/raw/` — original Kaggle CSVs (not included, see dataset link above)
+- `data/cleaned/` — preprocessed tables exported for SQL analysis
+- `sql/` — all SQL queries used in analysis
+- `notebooks/` — Jupyter notebooks for preprocessing and EDA
+- `images/` — dashboard and chart exports for README
