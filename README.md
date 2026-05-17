@@ -46,6 +46,9 @@ retention problem across the full customer lifecycle from acquisition to recover
 | 4. Learn From and Recover Lost Customers | Close the feedback gap and convert churned accounts into reactivation opportunities |
 
 ### 1. Acquire the Right Customers
+<img width="710" height="279" alt="image" src="https://github.com/user-attachments/assets/e5a9ea8b-e0f4-43cc-921f-29567f1d0eff" />
+
+
 - Shift acquisition focus from volume to fit
 
   Event and ads channels produce the highest churn rates (30–43%) while partner and organic referrals retain significantly better (13–17%). Refining the acquisition channel mix, introducing lightweight qualification criteria for high-churn channels, and redesigning event flows to emphasise product understanding over immediate sign-ups may collectively improve the quality of incoming accounts without necessarily increasing acquisition cost.
@@ -59,6 +62,7 @@ retention problem across the full customer lifecycle from acquisition to recover
 **Priority: Long-term — requires cross-functional alignment.**
 
 ### 2. Accelerate Early Value Realization
+<img width="508" height="285" alt="image" src="https://github.com/user-attachments/assets/1fd2c398-0577-48e6-8185-9bf5724d29c2" />
 
 - Redesign onboarding around early value realization
 
@@ -66,6 +70,7 @@ retention problem across the full customer lifecycle from acquisition to recover
 
 **Priority: High - directly addresses the largest churn window. Requires product instrumentation and cross-functional definition of success metrics.**
 
+<img width="496" height="291" alt="image" src="https://github.com/user-attachments/assets/f9e522f5-ac3a-4f3c-a1f1-a94ab75318a5" />
 
 - Implement structured touchpoints and early subscription change monitoring
 
@@ -75,6 +80,9 @@ retention problem across the full customer lifecycle from acquisition to recover
 
 
 ### 3. Protect High-Value Customer Relationships
+
+<img width="523" height="259" alt="image" src="https://github.com/user-attachments/assets/13de1590-d4b4-4898-ad24-e38d58b15ac2" />
+
 
 - Invest in structured relationship management for long-tenure and high-value accounts
 
