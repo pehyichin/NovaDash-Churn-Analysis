@@ -52,8 +52,52 @@ retention problem across the full customer lifecycle from acquisition to recover
   
 **Priority: Medium-term — requires marketing and sales alignment.**
 
-- Develop an Ideal Customer Profile (ICP)
+- Develop a clearer Ideal Customer Profile (ICP)
 
-  Retention and churn patterns suggest that certain industries — particularly Cybersecurity and EdTech — demonstrate stronger retention quality despite smaller account volume. Formalising these observations into a defined ICP can guide targeting strategy, acquisition messaging, and onboarding expectations, reducing structural churn risk at the source.
+  Retention and churn patterns suggest that certain industries - particularly Cybersecurity and EdTech, demonstrate stronger retention quality despite smaller account volume. Formalising these observations into a defined ICP can guide targeting strategy, acquisition messaging, and onboarding expectations, reducing structural churn risk at the source.
   
 **Priority: Long-term — requires cross-functional alignment.**
+
+### 2. Accelerate Early Value Realization
+
+- Redesign onboarding around early value realization
+
+    Nearly half of all churn occurs within the first 90 days, and early-stage accounts that upgraded their plan before churning still failed to find sufficient value, indicating an activation problem rather than a pricing one. NovaDash should prioritise getting new accounts to their first meaningful workflow output within the first two weeks, through a guided onboarding path tailored by industry vertical. Defining and tracking specific activation milestones such as completing a first automated workflow, inviting a second team member, or integrating with an existing tool creates measurable checkpoints that surface at-risk accounts before they reach the cancellation decision.
+
+**Priority: High - directly addresses the largest churn window. Requires product instrumentation and cross-functional definition of success metrics.**
+
+
+- Implement structured touchpoints and early subscription change monitoring
+
+    Structured outreach at day 14, day 30, and day 60 for all new accounts with a technical review component for DevTools accounts specifically can create proactive intervention opportunities before dissatisfaction escalates. Subscription changes in the first 90 days should be monitored as risk signals: an upgrade event warrants immediate outreach to ensure the higher tier delivers on expectations, while a downgrade event can trigger an automated low-touch follow-up at negligible operational cost.
+  
+**Priority: High - process-driven with minimal investment. Audit of upgrade flow requires no product changes.**
+
+
+### 3. Protect High-Value Customer Relationships
+
+- Invest in structured relationship management for long-tenure and high-value accounts
+
+    Accounts churning after 365+ days carry the highest revenue loss rate at 36.1%, and Cybersecurity accounts represent the highest revenue loss per churn at USD 2.6K. Assigning dedicated Customer Success Managers (CSMs), conducting quarterly business reviews (QBRs), and introducing priority support SLAs for these segments creates a relationship infrastructure that surfaces retention risks earlier and signals to strategically important customers that their partnership is valued. Renewal conversations should be initiated several months before contract expiry, with loyalty incentives such as early renewal discounts or multi-year pricing structures available for high-value accounts.
+
+**Priority: Medium-term — requires Customer Success capacity planning, SLA definition, and QBR framework.**
+
+- Monitor downgrade events as early warning signals
+
+    Among long-tenure churners, 80% made a downgrade before exiting - a classic cost-cutting signal preceding full cancellation. Instrumenting downgrade events as automated churn risk triggers for established accounts allows NovaDash to initiate proactive, personalised outreach before the cancellation decision is made, converting a reactive process into a predictive one.
+
+**Priority: Quick win - requires CRM automation and workflow setup, no additional headcount.**
+
+### 4. Learn From and Recover Lost Customers
+
+- Close the feedback loop from collection to action
+
+    35 of 110 churned accounts left no reason code, limiting analytical depth and intervention quality. Introducing a structured exit survey at the point of cancellation to improve visibility into churn drivers over time. Even a single mandatory churn reason field may meaningfully improve data quality over time. Critically, collected insights should be systematically shared with product, support, and customer success teams to ensure recurring pain points influence roadmap prioritisation, service improvements, and onboarding design. Feedback collection without a closed loop has limited organisational value.
+
+**Priority: Quick win for collection, medium-term for cross-functional process alignment.**
+
+- Expand or Formalise win-back initiatives
+
+    Of 26 reactivated accounts, 88.5% are currently retained, suggesting that customers who return after churning tend to stay. A structured win-back campaign targeting recently churned accounts within 90 days of exit, with tailored messaging and low-friction re-entry incentives based on known churn reasons, may recover meaningful revenue at relatively low cost.
+
+**Priority: Medium-term, requires campaign design and CRM segmentation.**
