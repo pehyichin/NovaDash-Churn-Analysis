@@ -13,11 +13,11 @@ Identify the behavioural, demographic, and subscription-level signals that prece
 ## Key Findings
 [View Dashboard on Tableau Public](https://public.tableau.com/app/profile/yichin.peh/viz/NovaDash_tableau_TBD/Dashboard1)
 
-  <img width="1873" height="2030" alt="Dashboard 1" src="https://github.com/user-attachments/assets/23ad68dc-3337-49cf-8ec4-d77ed704d165" />
+<img width="1873" height="2030" alt="Dashboard 1" src="https://github.com/user-attachments/assets/23ad68dc-3337-49cf-8ec4-d77ed704d165" />
 
   *Figure 1: NovaDash Churn Analysis Dashboard*
 
-> 22% overall churn rate — 110 customers lost, representing $2.76M in annual recurring revenue.**
+> 22% overall churn rate — 110 customers lost, representing $2.76M in annual recurring revenue.
 - **DevTools has the highest churn rate at 31%**, particularly among event (43%) and ad-acquired accounts (38%).
 - **46.7% of churn occurs within the first 90 days** — indicating an onboarding and activation gap.
 - **No single churn driver dominates** — budget, features, and support each account for 21% of churned accounts with a recorded reason.
@@ -122,9 +122,11 @@ Based on the findings, four strategic layers are proposed to address NovaDash's 
 - **Libraries:** Pandas, Matplotlib, Seaborn
 
 **Data Pipeline**
+
 Raw CSVs → SQL (joins & aggregations) → Python (EDA) → Tableau (visualisation)
 
 **Dataset**
+
 - **Source:** [RavenStack SaaS Dataset by Rivalytics](https://www.kaggle.com/datasets/rivalytics/saas-subscription-and-churn-analytics-dataset)
 - **Credit:** River @ Rivalytics — MIT-like licence, fully synthetic, no PII
 - **5 relational tables:**
