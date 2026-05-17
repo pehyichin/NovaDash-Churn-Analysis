@@ -21,12 +21,14 @@ Identify the behavioural, demographic, and subscription-level signals that prece
 - **DevTools has the highest churn rate at 31%**, particularly among event (43%) and ad-acquired accounts (38%).
 - **46.7% of churn occurs within the first 90 days** — indicating an onboarding and activation gap.
 - **No single churn driver dominates** — budget, features, and support each account for 21% of churned accounts with a recorded reason.
+- **35% of churned accounts left no reason code** — limiting visibility into churn drivers and highlighting a data collection gap.
 - **33% of churned accounts made a subscription change in the 90 days before leaving** — more upgraded (21%) than downgraded (12%), suggesting unmet product expectations rather than budget constraints.
 - **80% of subscription changes among long-tenure churners were downgrades** — a leading indicator of impending cancellation.
 - **DevTools accounts for the largest absolute revenue loss at $61K** — a volume problem.
 - **Each Cybersecurity churn costs $2.6K** — the highest of any industry, making it a value problem.
 - **Long-tenure accounts (365+ days) carry the highest revenue loss rate at 36.1%** — each departure carries disproportionate individual impact.
 - **88.5% of reactivated accounts remain retained** — win-back efforts show strong potential.
+
 
 
 ## Recommendations
@@ -107,7 +109,7 @@ Based on the findings, four strategic layers are proposed to address NovaDash's 
 
   **Priority: Quick win for collection, medium-term for cross-functional process alignment.**
 
-- Expand or Formalise win-back initiatives
+- Expand or Formalise Win-Back Initiatives
 
     Of 26 reactivated accounts, 88.5% are currently retained, suggesting that customers who return after churning tend to stay. A structured win-back campaign targeting recently churned accounts within 90 days of exit, with tailored messaging and low-friction re-entry incentives based on known churn reasons, may recover meaningful revenue at relatively low cost.
 
