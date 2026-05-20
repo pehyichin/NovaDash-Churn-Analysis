@@ -2,7 +2,17 @@
 ![Tableau](https://img.shields.io/badge/Tableau-Public-orange)
 ![SQL](https://img.shields.io/badge/SQL-SQLite-lightgrey)
 
-## Company Info
+## Table of Contents
+1. [Company Overview](#company-overview)
+2. [Objective](#objective)
+3. [Dashboard](#dashboard)
+5. [Key Findings](#key-findings)
+6. [Recommendations](#recommendations)
+7. [Technical Notes](#technical-notes)
+8. [Dataset](#dataset)
+
+
+## Company Overview
 <img width="300" alt="NovaDash-lockup-light" src="https://github.com/user-attachments/assets/8b1709e4-6e72-44fd-be2a-6936cf07bbae" />
 
 **NovaDash** is a B2B SaaS platform providing workflow automation and analytics tools to technology companies across Southeast Asia. Serving 500 enterprise and SME clients across five verticals — DevTools, FinTech, HealthTech, EdTech, and Cybersecurity. NovaDash has experienced rising churn over the past two quarters, prompting an urgent review by the Head of Customer Success.
@@ -10,13 +20,13 @@
 ## Objective
 Identify the behavioural, demographic, and subscription-level signals that precede customer churn at NovaDash, and quantify the revenue impact to inform a targeted retention strategy.
 
-## Key Findings
+## Dashboard
 [View Dashboard on Tableau Public](https://public.tableau.com/app/profile/yichin.peh/viz/NovaDash_tableau_TBD/Dashboard1)
 
 <img width="1873" height="2030" alt="Dashboard 1" src="https://github.com/user-attachments/assets/23ad68dc-3337-49cf-8ec4-d77ed704d165" />
-
   *Figure 1: NovaDash Churn Analysis Dashboard*
 
+## Key Findings
 > 22% overall churn rate — 110 customers lost, representing $2.76M in annual recurring revenue.
 - **DevTools has the highest churn rate at 31%**, particularly among event (43%) and ad-acquired accounts (38%).
 - **46.7% of churn occurs within the first 90 days** — indicating an onboarding and activation gap.
@@ -127,7 +137,7 @@ Based on the findings, four strategic layers are proposed to address NovaDash's 
 
 Raw CSVs → SQL (joins & aggregations) → Python (EDA) → Tableau (visualisation)
 
-**Dataset**
+## Dataset
 
 - **Source:** [RavenStack SaaS Dataset by Rivalytics](https://www.kaggle.com/datasets/rivalytics/saas-subscription-and-churn-analytics-dataset)
 - **Credit:** River @ Rivalytics — MIT-like licence, fully synthetic, no PII
